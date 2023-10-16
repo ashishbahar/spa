@@ -1,0 +1,1453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>spa</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+
+    <link
+      rel="shortcut icon"
+      href="./assets/images/svg/pagelogo.svg"
+      type="image/x-icon"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+      integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div>
+      <!-- header -->
+      <div class="header_bg_img">
+        <!-- Navbar -->
+        <nav>
+          <div class="container pt-1 cus_container">
+            <div class="d-flex py-3 justify-content-between align-items-center">
+              <a href="#">
+                <img
+                  class="logo_width"
+                  src="./assets/images/svg/pagelogo.svg"
+                  alt="pagelogo"
+                />
+              </a>
+              <ul class="d-flex mb-0 ps-0 nav-menu">
+                <li class="px-1 mx-2">
+                  <a
+                    class="ff_poppins fs_md fw-normal color_white nav_line"
+                    href="#"
+                  >
+                    Services
+                  </a>
+                </li>
+                <li class="px-1 mx-2">
+                  <a
+                    class="ff_poppins fs_md fw-normal color_white nav_line"
+                    href="#"
+                  >
+                    Benefits
+                  </a>
+                </li>
+                <li class="px-1 mx-2">
+                  <a
+                    class="ff_poppins fs_md fw-normal color_white nav_line"
+                    href="#"
+                  >
+                    Why Choose US
+                  </a>
+                </li>
+                <li class="px-1 mx-2">
+                  <a
+                    class="ff_poppins fs_md fw-normal color_white nav_line"
+                    href="#"
+                  >
+                    FAQs
+                  </a>
+                </li>
+                <div>
+                  <button
+                    class="ff_poppins d-md-none text-center bg_lightgreen trans_03 fw-medium fs_md color_white common_button"
+                  >
+                    Contact us
+                  </button>
+                </div>
+              </ul>
+              <button
+                class="ff_poppins d-none d-md-block trans_03 bg_lightgreen fw-medium fs_md color_white common_button"
+              >
+                Contact us
+              </button>
+              <button class="hamburger d-lg-none index_5 ms-2 d-md-none">
+                <span class="bar ms-auto"></span>
+                <span class="bar bar-2"></span>
+                <span class="bar ms-auto"></span>
+              </button>
+            </div>
+          </div>
+        </nav>
+        <!-- hero -->
+        <div class="pt-5 my-md-5 position-relative">
+          <img
+            class="position-absolute hero_postion1 top-0 end-0"
+            src="./assets/images/png/hero_position.png"
+            alt="hero_position"
+          />
+          <img
+            class="position-absolute hero_postion2"
+            src="./assets/images/png/hero_position2.png"
+            alt="hero_position"
+          />
+          <h1
+            class="ff_poppins mb-0 px-4 position-relative z-1 line_height_140 fw-semibold fs_xl color_white mx-auto text-center heading_max_width"
+          >
+            Simplifying <i class="fw-normal"> Laptop Refresh </i>Deployments for
+            Organizations
+          </h1>
+          <p
+            class="text-center pt-3 mt-1 px-4 mb-0 ff_poppins line_height_135 fs_lg fw-normal color_white"
+          >
+            Revolutionizing the Way You Manage Laptop Refresh Projects
+          </p>
+          <div class="text-center px-4">
+            <img
+              class="dashboard_spacing w-100"
+              src="./assets/images/png/dashboard.png"
+              alt="dashboard"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="py-5 overflow-hidden mt-5 mt-sm-0 position-relative">
+        <div class="circle"></div>
+        <img
+          class="position-absolute feature_img_postion"
+          src="./assets/images/png/hero_position3.png"
+          alt="positionimg"
+        />
+        <div
+          data-aos="fade-up"
+          class="container py-5 my-lg-5 cus_container position-relative z-1"
+        >
+          <h2 class="text-center common_heading fw-semibold">
+            Features & <i class="fw-normal">Benefits</i>
+          </h2>
+          <div class="responsive mt-4 mt-sm-5">
+            <div class="px-3 bg-white">
+              <div class="bg-white box d-flex flex-column align-items-center">
+                <h2 class="bg-cyan head_box text-white">Employee Portal</h2>
+                <div class="mt-4">
+                  <div class="d-flex gap-sm-3 gap-2">
+                    <span class="border-left position-relative z-2">
+                      <svg
+                        width="48"
+                        height="49"
+                        viewBox="0 0 48 49"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g filter="url(#filter0_d_40_425)">
+                          <rect
+                            x="11"
+                            y="7"
+                            width="26"
+                            height="26"
+                            rx="8"
+                            fill="white"
+                          />
+                        </g>
+                        <rect
+                          x="19.1252"
+                          y="15.125"
+                          width="9.34375"
+                          height="9.34375"
+                          rx="4.0625"
+                          fill="#377C8A"
+                        />
+                        <defs>
+                          <filter
+                            id="filter0_d_40_425"
+                            x="0"
+                            y="0.61998"
+                            width="48"
+                            height="48"
+                            filterUnits="userSpaceOnUse"
+                            color-interpolation-filters="sRGB"
+                          >
+                            <feFlood
+                              flood-opacity="0"
+                              result="BackgroundImageFix"
+                            />
+                            <feColorMatrix
+                              in="SourceAlpha"
+                              type="matrix"
+                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                              result="hardAlpha"
+                            />
+                            <feOffset dy="4.61998" />
+                            <feGaussianBlur stdDeviation="5.5" />
+                            <feComposite in2="hardAlpha" operator="out" />
+                            <feColorMatrix
+                              type="matrix"
+                              values="0 0 0 0 0.508333 0 0 0 0 0.508333 0 0 0 0 0.508333 0 0 0 0.36 0"
+                            />
+                            <feBlend
+                              mode="normal"
+                              in2="BackgroundImageFix"
+                              result="effect1_dropShadow_40_425"
+                            />
+                            <feBlend
+                              mode="normal"
+                              in="SourceGraphic"
+                              in2="effect1_dropShadow_40_425"
+                              result="shape"
+                            />
+                          </filter>
+                        </defs>
+                      </svg>
+                    </span>
+                    <div class="mb-3">
+                      <h2 class="list_head mb-0">User-Friendly Signup:</h2>
+                      <p class="list_para mb-0 mt-1">
+                        Employees easily indicate their preference for a new
+                        laptop.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="d-flex gap-sm-3 gap-2">
+                    <span class="border-left position-relative z-2">
+                      <svg
+                        width="48"
+                        height="49"
+                        viewBox="0 0 48 49"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g filter="url(#filter0_d_40_425)">
+                          <rect
+                            x="11"
+                            y="7"
+                            width="26"
+                            height="26"
+                            rx="8"
+                            fill="white"
+                          />
+                        </g>
+                        <rect
+                          x="19.1252"
+                          y="15.125"
+                          width="9.34375"
+                          height="9.34375"
+                          rx="4.0625"
+                          fill="#377C8A"
+                        />
+                        <defs>
+                          <filter
+                            id="filter0_d_40_425"
+                            x="0"
+                            y="0.61998"
+                            width="48"
+                            height="48"
+                            filterUnits="userSpaceOnUse"
+                            color-interpolation-filters="sRGB"
+                          >
+                            <feFlood
+                              flood-opacity="0"
+                              result="BackgroundImageFix"
+                            />
+                            <feColorMatrix
+                              in="SourceAlpha"
+                              type="matrix"
+                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                              result="hardAlpha"
+                            />
+                            <feOffset dy="4.61998" />
+                            <feGaussianBlur stdDeviation="5.5" />
+                            <feComposite in2="hardAlpha" operator="out" />
+                            <feColorMatrix
+                              type="matrix"
+                              values="0 0 0 0 0.508333 0 0 0 0 0.508333 0 0 0 0 0.508333 0 0 0 0.36 0"
+                            />
+                            <feBlend
+                              mode="normal"
+                              in2="BackgroundImageFix"
+                              result="effect1_dropShadow_40_425"
+                            />
+                            <feBlend
+                              mode="normal"
+                              in="SourceGraphic"
+                              in2="effect1_dropShadow_40_425"
+                              result="shape"
+                            />
+                          </filter>
+                        </defs>
+                      </svg>
+                    </span>
+                    <div class="mb-3">
+                      <h2 class="list_head mb-0">Seamless Communication:</h2>
+                      <p class="list_para mb-0 mt-1">
+                        Automated notifications keep employees informed from
+                        request to exchange.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="d-flex gap-sm-3 gap-2">
+                    <span class="position-relative z-2">
+                      <svg
+                        width="48"
+                        height="49"
+                        viewBox="0 0 48 49"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g filter="url(#filter0_d_40_425)">
+                          <rect
+                            x="11"
+                            y="7"
+                            width="26"
+                            height="26"
+                            rx="8"
+                            fill="white"
+                          />
+                        </g>
+                        <rect
+                          x="19.1252"
+                          y="15.125"
+                          width="9.34375"
+                          height="9.34375"
+                          rx="4.0625"
+                          fill="#377C8A"
+                        />
+                        <defs>
+                          <filter
+                            id="filter0_d_40_425"
+                            x="0"
+                            y="0.61998"
+                            width="48"
+                            height="48"
+                            filterUnits="userSpaceOnUse"
+                            color-interpolation-filters="sRGB"
+                          >
+                            <feFlood
+                              flood-opacity="0"
+                              result="BackgroundImageFix"
+                            />
+                            <feColorMatrix
+                              in="SourceAlpha"
+                              type="matrix"
+                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                              result="hardAlpha"
+                            />
+                            <feOffset dy="4.61998" />
+                            <feGaussianBlur stdDeviation="5.5" />
+                            <feComposite in2="hardAlpha" operator="out" />
+                            <feColorMatrix
+                              type="matrix"
+                              values="0 0 0 0 0.508333 0 0 0 0 0.508333 0 0 0 0 0.508333 0 0 0 0.36 0"
+                            />
+                            <feBlend
+                              mode="normal"
+                              in2="BackgroundImageFix"
+                              result="effect1_dropShadow_40_425"
+                            />
+                            <feBlend
+                              mode="normal"
+                              in="SourceGraphic"
+                              in2="effect1_dropShadow_40_425"
+                              result="shape"
+                            />
+                          </filter>
+                        </defs>
+                      </svg>
+                    </span>
+                    <div class="mb-3">
+                      <h2 class="list_head mb-0">Flexible Scheduling:</h2>
+                      <p class="list_para mb-0 mt-1">
+                        Convenient appointment scheduling and rescheduling
+                        rightfrom the portal.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="px-3">
+              <div class="bg-white box d-flex flex-column align-items-center">
+                <h2 class="bg-cyan px-4 head_box text-white">
+                  Engineer Dashboard
+                </h2>
+                <div class="mt-4">
+                  <div class="d-flex gap-sm-3 gap-2">
+                    <span class="border-left position-relative z-2">
+                      <svg
+                        width="48"
+                        height="49"
+                        viewBox="0 0 48 49"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g filter="url(#filter0_d_40_425)">
+                          <rect
+                            x="11"
+                            y="7"
+                            width="26"
+                            height="26"
+                            rx="8"
+                            fill="white"
+                          />
+                        </g>
+                        <rect
+                          x="19.1252"
+                          y="15.125"
+                          width="9.34375"
+                          height="9.34375"
+                          rx="4.0625"
+                          fill="#377C8A"
+                        />
+                        <defs>
+                          <filter
+                            id="filter0_d_40_425"
+                            x="0"
+                            y="0.61998"
+                            width="48"
+                            height="48"
+                            filterUnits="userSpaceOnUse"
+                            color-interpolation-filters="sRGB"
+                          >
+                            <feFlood
+                              flood-opacity="0"
+                              result="BackgroundImageFix"
+                            />
+                            <feColorMatrix
+                              in="SourceAlpha"
+                              type="matrix"
+                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                              result="hardAlpha"
+                            />
+                            <feOffset dy="4.61998" />
+                            <feGaussianBlur stdDeviation="5.5" />
+                            <feComposite in2="hardAlpha" operator="out" />
+                            <feColorMatrix
+                              type="matrix"
+                              values="0 0 0 0 0.508333 0 0 0 0 0.508333 0 0 0 0 0.508333 0 0 0 0.36 0"
+                            />
+                            <feBlend
+                              mode="normal"
+                              in2="BackgroundImageFix"
+                              result="effect1_dropShadow_40_425"
+                            />
+                            <feBlend
+                              mode="normal"
+                              in="SourceGraphic"
+                              in2="effect1_dropShadow_40_425"
+                              result="shape"
+                            />
+                          </filter>
+                        </defs>
+                      </svg>
+                    </span>
+                    <div class="mb-3">
+                      <h2 class="list_head mb-0">Daily Handover Insights:</h2>
+                      <p class="list_para mb-0 mt-1">
+                        View all laptop handover appointments for the day at a
+                        glance.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="d-flex gap-sm-3 gap-2">
+                    <span class="border-left position-relative z-2">
+                      <svg
+                        width="48"
+                        height="49"
+                        viewBox="0 0 48 49"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g filter="url(#filter0_d_40_425)">
+                          <rect
+                            x="11"
+                            y="7"
+                            width="26"
+                            height="26"
+                            rx="8"
+                            fill="white"
+                          />
+                        </g>
+                        <rect
+                          x="19.1252"
+                          y="15.125"
+                          width="9.34375"
+                          height="9.34375"
+                          rx="4.0625"
+                          fill="#377C8A"
+                        />
+                        <defs>
+                          <filter
+                            id="filter0_d_40_425"
+                            x="0"
+                            y="0.61998"
+                            width="48"
+                            height="48"
+                            filterUnits="userSpaceOnUse"
+                            color-interpolation-filters="sRGB"
+                          >
+                            <feFlood
+                              flood-opacity="0"
+                              result="BackgroundImageFix"
+                            />
+                            <feColorMatrix
+                              in="SourceAlpha"
+                              type="matrix"
+                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                              result="hardAlpha"
+                            />
+                            <feOffset dy="4.61998" />
+                            <feGaussianBlur stdDeviation="5.5" />
+                            <feComposite in2="hardAlpha" operator="out" />
+                            <feColorMatrix
+                              type="matrix"
+                              values="0 0 0 0 0.508333 0 0 0 0 0.508333 0 0 0 0 0.508333 0 0 0 0.36 0"
+                            />
+                            <feBlend
+                              mode="normal"
+                              in2="BackgroundImageFix"
+                              result="effect1_dropShadow_40_425"
+                            />
+                            <feBlend
+                              mode="normal"
+                              in="SourceGraphic"
+                              in2="effect1_dropShadow_40_425"
+                              result="shape"
+                            />
+                          </filter>
+                        </defs>
+                      </svg>
+                    </span>
+                    <div class="mb-3">
+                      <h2 class="list_head mb-0">Efficient Management:</h2>
+                      <p class="list_para mb-0 mt-1">
+                        Update laptop serial numbers manually, label exchanges,
+                        and track noshows.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="d-flex gap-sm-3 gap-2">
+                    <span class="position-relative z-2">
+                      <svg
+                        width="48"
+                        height="49"
+                        viewBox="0 0 48 49"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g filter="url(#filter0_d_40_425)">
+                          <rect
+                            x="11"
+                            y="7"
+                            width="26"
+                            height="26"
+                            rx="8"
+                            fill="white"
+                          />
+                        </g>
+                        <rect
+                          x="19.1252"
+                          y="15.125"
+                          width="9.34375"
+                          height="9.34375"
+                          rx="4.0625"
+                          fill="#377C8A"
+                        />
+                        <defs>
+                          <filter
+                            id="filter0_d_40_425"
+                            x="0"
+                            y="0.61998"
+                            width="48"
+                            height="48"
+                            filterUnits="userSpaceOnUse"
+                            color-interpolation-filters="sRGB"
+                          >
+                            <feFlood
+                              flood-opacity="0"
+                              result="BackgroundImageFix"
+                            />
+                            <feColorMatrix
+                              in="SourceAlpha"
+                              type="matrix"
+                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                              result="hardAlpha"
+                            />
+                            <feOffset dy="4.61998" />
+                            <feGaussianBlur stdDeviation="5.5" />
+                            <feComposite in2="hardAlpha" operator="out" />
+                            <feColorMatrix
+                              type="matrix"
+                              values="0 0 0 0 0.508333 0 0 0 0 0.508333 0 0 0 0 0.508333 0 0 0 0.36 0"
+                            />
+                            <feBlend
+                              mode="normal"
+                              in2="BackgroundImageFix"
+                              result="effect1_dropShadow_40_425"
+                            />
+                            <feBlend
+                              mode="normal"
+                              in="SourceGraphic"
+                              in2="effect1_dropShadow_40_425"
+                              result="shape"
+                            />
+                          </filter>
+                        </defs>
+                      </svg>
+                    </span>
+                    <div class="mb-3">
+                      <h2 class="list_head mb-0">Full Office Visibility:</h2>
+                      <p class="list_para mb-0 mt-1">
+                        Monitor all appointments for the office, regardless of
+                        the date.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="px-3">
+              <div class="bg-white box d-flex flex-column align-items-center">
+                <h2 class="bg-cyan head_box text-white px-2">
+                  Stakeholder Dashboard
+                </h2>
+                <div class="mt-4">
+                  <div class="d-flex gap-sm-3 gap-2">
+                    <span class="border-left position-relative z-2">
+                      <svg
+                        width="48"
+                        height="49"
+                        viewBox="0 0 48 49"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g filter="url(#filter0_d_40_425)">
+                          <rect
+                            x="11"
+                            y="7"
+                            width="26"
+                            height="26"
+                            rx="8"
+                            fill="white"
+                          />
+                        </g>
+                        <rect
+                          x="19.1252"
+                          y="15.125"
+                          width="9.34375"
+                          height="9.34375"
+                          rx="4.0625"
+                          fill="#377C8A"
+                        />
+                        <defs>
+                          <filter
+                            id="filter0_d_40_425"
+                            x="0"
+                            y="0.61998"
+                            width="48"
+                            height="48"
+                            filterUnits="userSpaceOnUse"
+                            color-interpolation-filters="sRGB"
+                          >
+                            <feFlood
+                              flood-opacity="0"
+                              result="BackgroundImageFix"
+                            />
+                            <feColorMatrix
+                              in="SourceAlpha"
+                              type="matrix"
+                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                              result="hardAlpha"
+                            />
+                            <feOffset dy="4.61998" />
+                            <feGaussianBlur stdDeviation="5.5" />
+                            <feComposite in2="hardAlpha" operator="out" />
+                            <feColorMatrix
+                              type="matrix"
+                              values="0 0 0 0 0.508333 0 0 0 0 0.508333 0 0 0 0 0.508333 0 0 0 0.36 0"
+                            />
+                            <feBlend
+                              mode="normal"
+                              in2="BackgroundImageFix"
+                              result="effect1_dropShadow_40_425"
+                            />
+                            <feBlend
+                              mode="normal"
+                              in="SourceGraphic"
+                              in2="effect1_dropShadow_40_425"
+                              result="shape"
+                            />
+                          </filter>
+                        </defs>
+                      </svg>
+                    </span>
+                    <div class="mb-3">
+                      <h2 class="list_head mb-0">Deployment Overview:</h2>
+                      <p class="list_para mb-0 mt-1">
+                        Stay updated with holistic and individual office
+                        performance metrics.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="d-flex gap-sm-3 gap-2">
+                    <span class="border-left position-relative z-2">
+                      <svg
+                        width="48"
+                        height="49"
+                        viewBox="0 0 48 49"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g filter="url(#filter0_d_40_425)">
+                          <rect
+                            x="11"
+                            y="7"
+                            width="26"
+                            height="26"
+                            rx="8"
+                            fill="white"
+                          />
+                        </g>
+                        <rect
+                          x="19.1252"
+                          y="15.125"
+                          width="9.34375"
+                          height="9.34375"
+                          rx="4.0625"
+                          fill="#377C8A"
+                        />
+                        <defs>
+                          <filter
+                            id="filter0_d_40_425"
+                            x="0"
+                            y="0.61998"
+                            width="48"
+                            height="48"
+                            filterUnits="userSpaceOnUse"
+                            color-interpolation-filters="sRGB"
+                          >
+                            <feFlood
+                              flood-opacity="0"
+                              result="BackgroundImageFix"
+                            />
+                            <feColorMatrix
+                              in="SourceAlpha"
+                              type="matrix"
+                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                              result="hardAlpha"
+                            />
+                            <feOffset dy="4.61998" />
+                            <feGaussianBlur stdDeviation="5.5" />
+                            <feComposite in2="hardAlpha" operator="out" />
+                            <feColorMatrix
+                              type="matrix"
+                              values="0 0 0 0 0.508333 0 0 0 0 0.508333 0 0 0 0 0.508333 0 0 0 0.36 0"
+                            />
+                            <feBlend
+                              mode="normal"
+                              in2="BackgroundImageFix"
+                              result="effect1_dropShadow_40_425"
+                            />
+                            <feBlend
+                              mode="normal"
+                              in="SourceGraphic"
+                              in2="effect1_dropShadow_40_425"
+                              result="shape"
+                            />
+                          </filter>
+                        </defs>
+                      </svg>
+                    </span>
+                    <div class="mb-3">
+                      <h2 class="list_head mb-0">Employee Tracking:</h2>
+                      <p class="list_para mb-0 mt-1">
+                        Identify completed exchanges and no-shows, making
+                        escalations swift and easy
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="d-flex gap-sm-3 gap-2">
+                    <span class="position-relative z-2">
+                      <svg
+                        width="48"
+                        height="49"
+                        viewBox="0 0 48 49"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g filter="url(#filter0_d_40_425)">
+                          <rect
+                            x="11"
+                            y="7"
+                            width="26"
+                            height="26"
+                            rx="8"
+                            fill="white"
+                          />
+                        </g>
+                        <rect
+                          x="19.1252"
+                          y="15.125"
+                          width="9.34375"
+                          height="9.34375"
+                          rx="4.0625"
+                          fill="#377C8A"
+                        />
+                        <defs>
+                          <filter
+                            id="filter0_d_40_425"
+                            x="0"
+                            y="0.61998"
+                            width="48"
+                            height="48"
+                            filterUnits="userSpaceOnUse"
+                            color-interpolation-filters="sRGB"
+                          >
+                            <feFlood
+                              flood-opacity="0"
+                              result="BackgroundImageFix"
+                            />
+                            <feColorMatrix
+                              in="SourceAlpha"
+                              type="matrix"
+                              values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                              result="hardAlpha"
+                            />
+                            <feOffset dy="4.61998" />
+                            <feGaussianBlur stdDeviation="5.5" />
+                            <feComposite in2="hardAlpha" operator="out" />
+                            <feColorMatrix
+                              type="matrix"
+                              values="0 0 0 0 0.508333 0 0 0 0 0.508333 0 0 0 0 0.508333 0 0 0 0.36 0"
+                            />
+                            <feBlend
+                              mode="normal"
+                              in2="BackgroundImageFix"
+                              result="effect1_dropShadow_40_425"
+                            />
+                            <feBlend
+                              mode="normal"
+                              in="SourceGraphic"
+                              in2="effect1_dropShadow_40_425"
+                              result="shape"
+                            />
+                          </filter>
+                        </defs>
+                      </svg>
+                    </span>
+                    <div class="mb-3">
+                      <h2 class="list_head mb-0">Deployment Calendar:</h2>
+                      <p class="list_para mb-0 mt-1">
+                        Get a clear picture of current and upcoming deployments
+                        by office.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- About spa -->
+      <div class="bg_extragreen py-5 mt-sm-5 overflow-hidden">
+        <div class="container py-sm-5 my-lg-5 cus_container">
+          <div
+            data-aos="fade-down"
+            class="row justify-content-center py-3 align-items-xl-start align-items-center"
+          >
+            <div
+              data-aos="fade-right"
+              class="col-lg-6 text-center text-lg-start mb-sm-5 mb-4 pt-2 pt-sm-0 mt-lg-0 px-sm-5 px-lg-3"
+            >
+              <h3 class="common_heading fw-semibold">
+                About <span class="fw-normal d_none">SPA</span>
+                <i class="fw-normal d-sm-none">Us</i>
+              </h3>
+              <p
+                class="opacity_07 ff_poppins fs_sm color_black mb-0 mt-2 mt-xl-3 pt-1"
+              >
+                Dui nulla duis tristique eu sed sit in ut. Dictum felis commodo
+                eu nulla. Adipiscing sed eu nisi justo id pharetra rutrum. Morbi
+                nisi facilisi senectus pulvinar in enim feugiat eros tortor.
+                Eget senectus tellus nunc vulputate volutpat.
+              </p>
+              <p
+                class="opacity_07 ff_poppins fs_sm color_black mb-0 mt-1 mt-xl-2 pt-1"
+              >
+                Laoreet pellentesque augue ipsum urna potenti elementum.
+                Tincidunt ipsum at suspendisse posuere scelerisque sit elit.
+                Cras tellus id odio amet pellentesque arcu.
+              </p>
+              <button
+                class="ff_poppins mt-4 trans_03 fw-medium fs_md color_white common_button2 bg_darkgreen"
+              >
+                Learn More
+              </button>
+            </div>
+            <div
+              data-aos="fade-left"
+              class="col-lg-6 pb-3 pb-lg-0 col-md-9 col-sm-10 col-11"
+            >
+              <div class="translate_x position-relative translate_x_lep">
+                <img
+                  class="w-100 position-relative z-1"
+                  src="./assets/images/png/NewMacbook.png"
+                  alt="NewMacbook"
+                />
+                <img
+                  class="position-absolute w-100 set_vectorimg"
+                  src="./assets/images/png/Vector.png"
+                  alt="vector"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Why Choose SPA -->
+      <div class="bg-white my-lg-3 py-5">
+        <div class="container py-md-5 my-sm-4 my-2 cus_container">
+          <h3 class="common_heading fw-semibold text-center">
+            Why Choose <i class="fw-normal">SPA?</i>
+          </h3>
+          <div class="d-none d-lg-block">
+            <div class="row mt-5 pt-4">
+              <div data-aos="fade-right" class="col-lg-4">
+                <div class="ps-xl-3 pe-2 text-lg-end">
+                  <h5 class="ff_poppins color_black fs_sm fw-medium mb-0">
+                    Comprehensive Solution
+                  </h5>
+                  <p
+                    class="ff_poppins fw-normal fs_sm color_black mt-2 opacity_07"
+                  >
+                    SPA handles every aspect of your laptop refresh project,
+                    eliminating the need for multiple tools and manual
+                    interventions.
+                  </p>
+                  <div class="mt_4 mt_20 mt_5">
+                    <h5 class="ff_poppins color_black fs_sm fw-medium mb-0">
+                      Improved Accountability:
+                    </h5>
+                    <p
+                      class="ff_poppins fw-normal fs_sm color_black mt-2 opacity_07"
+                    >
+                      With SPA, stakeholders and office managers have access to
+                      real-time data, ensuring that every employee exchange is
+                      accounted for.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div data-aos="fade-left" class="col-lg-4">
+                <img
+                  class="w-100 d-none d-lg-block mt_1 mt_0"
+                  src="./assets/images/png/chosecircle.png"
+                  alt=""
+                />
+              </div>
+              <div class="col-lg-4">
+                <div class="ps-lg-2">
+                  <h5 class="ff_poppins color_black fs_sm fw-medium mb-0">
+                    Time & Cost Efficiency
+                  </h5>
+                  <p
+                    class="ff_poppins fw-normal fs_sm color_black mt-2 opacity_07"
+                  >
+                    Automated processes mean less manual work, leading to faster
+                    deployments and cost savings.
+                  </p>
+                  <div class="mt_4 mt-xl-5">
+                    <h5 class="ff_poppins color_black fs_sm fw-medium mb-0">
+                      Enhanced Communication
+                    </h5>
+                    <p
+                      class="ff_poppins fw-normal fs_sm color_black mt-2 opacity_07"
+                    >
+                      Whether it's rescheduling, reminders, or updates, SPA
+                      ensures everyone is on the same page.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-lg-none">
+            <div class="d-flex align-items-start mt-4 pt-1">
+              <img
+                class="choose_img"
+                src="./assets/images/png/solution.png"
+                alt="soluton"
+              />
+              <div class="ms-3">
+                <h5 class="ff_poppins color_black fs_sm fw-medium mb-0">
+                  Comprehensive Solution
+                </h5>
+                <p
+                  class="ff_poppins fw-normal mb-0 fs_sm color_black mt-2 opacity_07"
+                >
+                  SPA handles every aspect of your laptop refresh project,
+                  eliminating the need for multiple tools and manual
+                  interventions.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex align-items-start mt-4 pt-1">
+              <img
+                class="choose_img"
+                src="./assets/images/png/time.png"
+                alt="time"
+              />
+              <div class="ms-3">
+                <h5 class="ff_poppins color_black fs_sm fw-medium mb-0">
+                  Time & Cost Efficiency
+                </h5>
+                <p
+                  class="ff_poppins fw-normal mb-0 fs_sm color_black mt-2 opacity_07"
+                >
+                  Automated processes mean less manual work, leading to faster
+                  deployments and cost savings.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex align-items-start mt-4 pt-1">
+              <img
+                class="choose_img"
+                src="./assets/images/png/enhanced.png"
+                alt="enhanced"
+              />
+              <div class="ms-3">
+                <h5 class="ff_poppins color_black fs_sm fw-medium mb-0">
+                  Enhanced Communication
+                </h5>
+                <p
+                  class="ff_poppins fw-normal mb-0 fs_sm color_black mt-2 opacity_07"
+                >
+                  Whether it's rescheduling, reminders, or updates, SPA ensures
+                  everyone is on the same page.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex align-items-start mt-4 pt-1">
+              <img
+                class="choose_img"
+                src="./assets/images/png/imporved.png"
+                alt="imporved"
+              />
+              <div class="ms-3">
+                <h5 class="ff_poppins color_black fs_sm fw-medium mb-0">
+                  Improved Accountability:
+                </h5>
+                <p
+                  class="ff_poppins fw-normal mb-0 fs_sm color_black mt-2 opacity_07"
+                >
+                  With SPA, stakeholders and office managers have access to
+                  real-time data, ensuring that every employee exchange is
+                  accounted for.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Watch Promo Video -->
+      <div>
+        <div
+          class="container pb-5 mb-lg-5 my-3 mt-lg-0 cus_container text-center"
+        >
+          <h2 class="common_heading py-2 text-center fw-semibold mb-0">
+            Watch Promo <i class="fw-normal">Video</i>
+          </h2>
+          <div class="position-relative my-sm-5">
+            <img
+              class="video_max_width w-100 b_radius_26"
+              src="./assets/images/png/promovideo.png"
+              alt="promovideo"
+            />
+            <div
+              type="button"
+              class="position-absolute plybtn_modify"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              <img
+                class="btn_play"
+                src="./assets/images/png/plybtn.png"
+                alt="plybtn"
+              />
+            </div>
+          </div>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-body video_max_width mx-auto">
+                  <iframe
+                    height="450"
+                    class="w-100"
+                    src="https://www.youtube.com/embed/eKqY-oP1d_Y"
+                    title="How to Start Coding? Learn Programming for Beginners"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Refresh developments -->
+      <div class="bg_extragreen py-5 overflow-hidden">
+        <div class="container mb-5 cus_container py-md-5 my-lg-4">
+          <div
+            class="row py-2 justify-content-center align-items-center align-items-lg-start flex-column-reverse flex-lg-row"
+          >
+            <div class="col-lg-6 col-md-9 col-11">
+              <div class="position-relative translate_x2">
+                <img
+                  class="w-100 position-relative z-1"
+                  src="./assets/images/png/NewMacbook2.png"
+                  alt="NewMacbook2"
+                />
+                <img
+                  class="position-absolute w-100 set_vectorimg2"
+                  src="./assets/images/png/Vector.png"
+                  alt="vector"
+                />
+              </div>
+            </div>
+            <div class="col-lg-6 translate_x4 text-center text-lg-start">
+              <h2 class="common_heading fw-semibold">
+                Your Partner in Streamlined Laptop
+                <i class="fw-normal"> Refresh Deployments</i>
+              </h2>
+              <p class="line_height_140 ff_poppins fw-normal opacity_06 fs_sm">
+                Equip your organization with the best. Experience hassle-free
+                management and stakeholder satisfaction with SPA.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+      <div class="pt-5 position-relative">
+        <img
+          class="position-absolute footer_postion_1 bottom-0 end-0"
+          src="./assets/images/png/footer_position.png"
+          alt="footerimg"
+        />
+        <img
+          class="position-absolute footer_postion_2 start-0"
+          src="./assets/images/png/footer_position2.png"
+          alt="footer_positon"
+        />
+        <div class="py-xl-5 my-4 container cus_container position-relative z-1">
+          <div class="row">
+            <div class="col-xl-4">
+              <div class="text-center text-xl-start mb-4 pb-3">
+                <a href="#">
+                  <img
+                    class="logo_width"
+                    src="./assets/images/png/footer_logo.png"
+                    alt="footerlogo"
+                  />
+                </a>
+                <p
+                  class="mb-0 text-sm-center text-start ps-lg-0 ps-4 heading_max_width mx-auto text-xl-start mt-3 ff_poppins fw-normal fs_sm color_black line_height_140 opacity_06"
+                >
+                  Equip your organization with the best. Experience hassle-free
+                  management and stakeholder satisfaction with SPA.
+                </p>
+              </div>
+            </div>
+            <div class="col-xl-8 col-12">
+              <div class="row ps-xl-5 flex-column-reverse flex-sm-row">
+                <div class="col-sm-6 mt-4 mt-sm-0">
+                  <div class="bg_darkgreen rounded-1 px-3 py-4 w-100">
+                    <div class="d-flex gap-3 justify-content-between">
+                      <div class="w-50">
+                        <p class="ff_poppins fw-normal fs_sm color_white mb-1">
+                          First Name
+                        </p>
+                        <input class="input_modify" type="text" />
+                      </div>
+                      <div class="w-50">
+                        <p class="ff_poppins fw-normal fs_sm color_white mb-1">
+                          Last Name
+                        </p>
+                        <input class="input_modify" type="text" />
+                      </div>
+                    </div>
+                    <div class="mt-2">
+                      <p class="ff_poppins fw-normal fs_sm color_white mb-1">
+                        Email
+                      </p>
+                      <input class="input_modify2 w-100" type="text" />
+                      <button
+                        class="ff_poppins mt-3 trans_03 bg_lightgreen fw-medium fs_md color_white common_button3"
+                      >
+                        Submit
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 d-flex justify-content-xl-between">
+                  <ul class="mb-0 ps-3">
+                    <li class="ff_poppins pb-1 fw-semibold fs_sm color_black">
+                      Links
+                    </li>
+                    <li class="mt-2">
+                      <a
+                        class="ff_poppins footer_hover trans_03 fs_sm fw-normal color_black opacity_07"
+                        href="#"
+                        >Assignment</a
+                      >
+                    </li>
+                    <li class="mt-2">
+                      <a
+                        class="ff_poppins footer_hover trans_03 fs_sm fw-normal color_black opacity_07"
+                        href="#"
+                        >Product Package</a
+                      >
+                    </li>
+                    <li class="mt-2">
+                      <a
+                        class="ff_poppins footer_hover trans_03 fs_sm fw-normal color_black opacity_07"
+                        href="#"
+                        >Journey</a
+                      >
+                    </li>
+                    <li class="mt-2">
+                      <a
+                        class="ff_poppins footer_hover trans_03 fs_sm fw-normal color_black opacity_07"
+                        href="#"
+                        >Contact Us</a
+                      >
+                    </li>
+                    <li class="mt-2">
+                      <a
+                        class="ff_poppins footer_hover trans_03 fs_sm fw-normal color_black opacity_07"
+                        href="#"
+                        >Programs</a
+                      >
+                    </li>
+                    <li class="mt-2">
+                      <a
+                        class="ff_poppins footer_hover trans_03 fs_sm fw-normal color_black opacity_07"
+                        href="#"
+                        >Terms of Service</a
+                      >
+                    </li>
+                  </ul>
+                  <ul>
+                    <li class="ff_poppins pb-1 fw-semibold fs_sm color_black">
+                      Other Links
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="ff_poppins footer_hover trans_03 fs_sm fw-normal color_black opacity_07"
+                        >Privacy Policy
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="ff_poppins footer_hover trans_03 fs_sm fw-normal color_black opacity_07"
+                      >
+                        Terms of Service
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="line"></div>
+        <p
+          class="text-center py-3 mb-0 ff_poppins fw-normal fs_sm color_black opacity_06"
+        >
+          © 2023 SPA All rights reserved
+        </p>
+      </div>
+
+      <div id="preloader">
+        <div class="d-flex flex-column align-items-center">
+          <img
+            class="preloader-logo pb-2"
+            src="./assets/images/png/footer_logo.png"
+            alt="preloader"
+          />
+        </div>
+      </div>
+      <!-- back to top -->
+      <div onclick="topFunction()" id="back_to_top" class="topscroll">
+        <div
+          class="d-flex justify-content-center align-items-center cursor_pointer h-100 w-100"
+        >
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M6 17.5901L7.41 19.0001L12 14.4201L16.59 19.0001L18 17.5901L12 11.5901L6 17.5901Z"
+              fill="white"
+            />
+            <path
+              d="M6 11L7.41 12.41L12 7.83L16.59 12.41L18 11L12 5L6 11Z"
+              fill="white"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      const navMenu = document.querySelector(".nav-menu ");
+      hamburger.addEventListener("click", function () {
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+        document.body.classList.toggle("overflow-hidden");
+      });
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- JQUERY-MIN-JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- SLICK-MIN-JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(".responsive").slick({
+        dots: false,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 3,
+        slidesToScroll: 4,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 3,
+              dots: false,
+              infinite: true,
+            },
+          },
+          {
+            breakpoint: 650,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 2,
+              dots: false,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              autoplay: true,
+              dots: false,
+            },
+          },
+        ],
+      });
+    </script>
+    <script>
+      // preloader
+      document.body.classList.add("overflow-y-hidden");
+      document.body.classList.add("preloader-class");
+      setTimeout(function () {
+        var preloader = document.getElementById("preloader");
+        preloader.style.opacity = "0";
+        preloader.style.pointerEvents = "none";
+        document.body.classList.remove("overflow-y-hidden");
+        document.body.classList.remove("preloader-class");
+      }, 2800);
+    </script>
+    <!-- back to top -->
+    <script>
+      const BackToTop = document.getElementById("back_to_top");
+      BackToTop.addEventListener("click", function moveToTop() {
+        document.documentElement.scrollTop = 0;
+      });
+      window.onscroll = () => scrollFunction();
+      function scrollFunction() {
+        if (document.documentElement.scrollTop > 150) {
+          BackToTop.style.display = "block";
+        } else {
+          BackToTop.style.display = "none";
+        }
+      }
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({ once: true, duration: 600, delay: 100 });
+    </script>
+  </body>
+</html>

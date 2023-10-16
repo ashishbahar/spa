@@ -1,0 +1,477 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<!-- =========================  slider link  ======================= -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+    integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .bg-cyan {
+            background-color: #377C8A;
+        }
+
+        .box {
+            border-radius: 16px;
+            border: 2px solid rgba(0, 0, 0, 0.10);
+            background: #FFF;
+            box-shadow: 0px 0px 105.53099px 0px rgba(0, 0, 0, 0.10);
+            padding-left: 16px;
+            padding-right: 10px;
+        }
+
+        .head_box {
+            display: inline-flex;
+            padding: 20px 45px 20px 46px;
+            justify-content: center;
+            align-items: center;
+            color: #FFF;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 140%;
+            border-radius: 0px 0px 20px 20px;
+            background: #377C8A;
+        }
+
+        .list_head {
+            color: var(--black, #000);
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+
+        .list_para {
+            color: #000;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            opacity: 0.7;
+        }
+
+        .border-left::after {
+            content: "";
+            position: absolute;
+            top: 10;
+            right: 23px;
+            z-index: -1;
+            height: 100%;
+            border-left: 1px dashed #B3B3B3;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <h2 class="text-center">Features & Benefits</h2>
+        <div class="responsive">
+            <div class="px-3">
+                <div class="bg-white box d-flex flex-column align-items-center">
+                    <h2 class="bg-cyan head_box text-white">
+                        Employee Portal
+                    </h2>
+                    <div>
+                        <div class="d-flex gap-4 ">
+                            <span class="border-left position-relative z-2">
+                                <svg width="48" height="49" viewBox="0 0 48 49" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_d_40_425)">
+                                        <rect x="11" y="7" width="26" height="26" rx="8" fill="white" />
+                                    </g>
+                                    <rect x="19.1252" y="15.125" width="9.34375" height="9.34375" rx="4.0625"
+                                        fill="#377C8A" />
+                                    <defs>
+                                        <filter id="filter0_d_40_425" x="0" y="0.61998" width="48" height="48"
+                                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                            <feColorMatrix in="SourceAlpha" type="matrix"
+                                                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                            <feOffset dy="4.61998" />
+                                            <feGaussianBlur stdDeviation="5.5" />
+                                            <feComposite in2="hardAlpha" operator="out" />
+                                            <feColorMatrix type="matrix"
+                                                values="0 0 0 0 0.508333 0 0 0 0 0.508333 0 0 0 0 0.508333 0 0 0 0.36 0" />
+                                            <feBlend mode="normal" in2="BackgroundImageFix"
+                                                result="effect1_dropShadow_40_425" />
+                                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_40_425"
+                                                result="shape" />
+                                        </filter>
+                                    </defs>
+                                </svg>
+
+                            </span>
+                            <div class="">
+                                <h2 class="list_head">User-Friendly Signup:</h2>
+                                <p class="list_para">Employees easily indicate their preference for a new laptop.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="d-flex gap-4 ">
+                            <span class="border-left position-relative z-2">
+                                <svg width="48" height="49" viewBox="0 0 48 49" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_d_40_425)">
+                                        <rect x="11" y="7" width="26" height="26" rx="8" fill="white" />
+                                    </g>
+                                    <rect x="19.1252" y="15.125" width="9.34375" height="9.34375" rx="4.0625"
+                                        fill="#377C8A" />
+                                    <defs>
+                                        <filter id="filter0_d_40_425" x="0" y="0.61998" width="48" height="48"
+                                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                            <feColorMatrix in="SourceAlpha" type="matrix"
+                                                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                            <feOffset dy="4.61998" />
+                                            <feGaussianBlur stdDeviation="5.5" />
+                                            <feComposite in2="hardAlpha" operator="out" />
+                                            <feColorMatrix type="matrix"
+                                                values="0 0 0 0 0.508333 0 0 0 0 0.508333 0 0 0 0 0.508333 0 0 0 0.36 0" />
+                                            <feBlend mode="normal" in2="BackgroundImageFix"
+                                                result="effect1_dropShadow_40_425" />
+                                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_40_425"
+                                                result="shape" />
+                                        </filter>
+                                    </defs>
+                                </svg>
+
+                            </span>
+                            <div class="">
+                                <h2 class="list_head">User-Friendly Signup:</h2>
+                                <p class="list_para">Employees easily indicate their preference for a new laptop.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="d-flex gap-4 ">
+                            <span class=" position-relative z-2">
+                                <svg width="48" height="49" viewBox="0 0 48 49" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_d_40_425)">
+                                        <rect x="11" y="7" width="26" height="26" rx="8" fill="white" />
+                                    </g>
+                                    <rect x="19.1252" y="15.125" width="9.34375" height="9.34375" rx="4.0625"
+                                        fill="#377C8A" />
+                                    <defs>
+                                        <filter id="filter0_d_40_425" x="0" y="0.61998" width="48" height="48"
+                                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                            <feColorMatrix in="SourceAlpha" type="matrix"
+                                                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                            <feOffset dy="4.61998" />
+                                            <feGaussianBlur stdDeviation="5.5" />
+                                            <feComposite in2="hardAlpha" operator="out" />
+                                            <feColorMatrix type="matrix"
+                                                values="0 0 0 0 0.508333 0 0 0 0 0.508333 0 0 0 0 0.508333 0 0 0 0.36 0" />
+                                            <feBlend mode="normal" in2="BackgroundImageFix"
+                                                result="effect1_dropShadow_40_425" />
+                                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_40_425"
+                                                result="shape" />
+                                        </filter>
+                                    </defs>
+                                </svg>
+
+                            </span>
+                            <div class="">
+                                <h2 class="list_head">User-Friendly Signup:</h2>
+                                <p class="list_para">Employees easily indicate their preference for a new laptop.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="px-3">
+                <div class="bg-white box d-flex flex-column align-items-center">
+                    <h2 class="bg-cyan head_box text-white">
+                        Employee Portal
+                    </h2>
+                    <div>
+                        <div class="d-flex gap-4 ">
+                            <span class="border-left position-relative z-2">
+                                <svg width="48" height="49" viewBox="0 0 48 49" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_d_40_425)">
+                                        <rect x="11" y="7" width="26" height="26" rx="8" fill="white" />
+                                    </g>
+                                    <rect x="19.1252" y="15.125" width="9.34375" height="9.34375" rx="4.0625"
+                                        fill="#377C8A" />
+                                    <defs>
+                                        <filter id="filter0_d_40_425" x="0" y="0.61998" width="48" height="48"
+                                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                            <feColorMatrix in="SourceAlpha" type="matrix"
+                                                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                            <feOffset dy="4.61998" />
+                                            <feGaussianBlur stdDeviation="5.5" />
+                                            <feComposite in2="hardAlpha" operator="out" />
+                                            <feColorMatrix type="matrix"
+                                                values="0 0 0 0 0.508333 0 0 0 0 0.508333 0 0 0 0 0.508333 0 0 0 0.36 0" />
+                                            <feBlend mode="normal" in2="BackgroundImageFix"
+                                                result="effect1_dropShadow_40_425" />
+                                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_40_425"
+                                                result="shape" />
+                                        </filter>
+                                    </defs>
+                                </svg>
+
+                            </span>
+                            <div class="">
+                                <h2 class="list_head">User-Friendly Signup:</h2>
+                                <p class="list_para">Employees easily indicate their preference for a new laptop.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="d-flex gap-4 ">
+                            <span class="border-left position-relative z-2">
+                                <svg width="48" height="49" viewBox="0 0 48 49" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_d_40_425)">
+                                        <rect x="11" y="7" width="26" height="26" rx="8" fill="white" />
+                                    </g>
+                                    <rect x="19.1252" y="15.125" width="9.34375" height="9.34375" rx="4.0625"
+                                        fill="#377C8A" />
+                                    <defs>
+                                        <filter id="filter0_d_40_425" x="0" y="0.61998" width="48" height="48"
+                                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                            <feColorMatrix in="SourceAlpha" type="matrix"
+                                                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                            <feOffset dy="4.61998" />
+                                            <feGaussianBlur stdDeviation="5.5" />
+                                            <feComposite in2="hardAlpha" operator="out" />
+                                            <feColorMatrix type="matrix"
+                                                values="0 0 0 0 0.508333 0 0 0 0 0.508333 0 0 0 0 0.508333 0 0 0 0.36 0" />
+                                            <feBlend mode="normal" in2="BackgroundImageFix"
+                                                result="effect1_dropShadow_40_425" />
+                                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_40_425"
+                                                result="shape" />
+                                        </filter>
+                                    </defs>
+                                </svg>
+
+                            </span>
+                            <div class="">
+                                <h2 class="list_head">User-Friendly Signup:</h2>
+                                <p class="list_para">Employees easily indicate their preference for a new laptop.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="d-flex gap-4 ">
+                            <span class=" position-relative z-2">
+                                <svg width="48" height="49" viewBox="0 0 48 49" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_d_40_425)">
+                                        <rect x="11" y="7" width="26" height="26" rx="8" fill="white" />
+                                    </g>
+                                    <rect x="19.1252" y="15.125" width="9.34375" height="9.34375" rx="4.0625"
+                                        fill="#377C8A" />
+                                    <defs>
+                                        <filter id="filter0_d_40_425" x="0" y="0.61998" width="48" height="48"
+                                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                            <feColorMatrix in="SourceAlpha" type="matrix"
+                                                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                            <feOffset dy="4.61998" />
+                                            <feGaussianBlur stdDeviation="5.5" />
+                                            <feComposite in2="hardAlpha" operator="out" />
+                                            <feColorMatrix type="matrix"
+                                                values="0 0 0 0 0.508333 0 0 0 0 0.508333 0 0 0 0 0.508333 0 0 0 0.36 0" />
+                                            <feBlend mode="normal" in2="BackgroundImageFix"
+                                                result="effect1_dropShadow_40_425" />
+                                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_40_425"
+                                                result="shape" />
+                                        </filter>
+                                    </defs>
+                                </svg>
+
+                            </span>
+                            <div class="">
+                                <h2 class="list_head">User-Friendly Signup:</h2>
+                                <p class="list_para">Employees easily indicate their preference for a new laptop.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="px-3">
+                <div class="bg-white box d-flex flex-column align-items-center">
+                    <h2 class="bg-cyan head_box text-white">
+                        Employee Portal
+                    </h2>
+                    <div>
+                        <div class="d-flex gap-4 ">
+                            <span class="border-left position-relative z-2">
+                                <svg width="48" height="49" viewBox="0 0 48 49" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_d_40_425)">
+                                        <rect x="11" y="7" width="26" height="26" rx="8" fill="white" />
+                                    </g>
+                                    <rect x="19.1252" y="15.125" width="9.34375" height="9.34375" rx="4.0625"
+                                        fill="#377C8A" />
+                                    <defs>
+                                        <filter id="filter0_d_40_425" x="0" y="0.61998" width="48" height="48"
+                                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                            <feColorMatrix in="SourceAlpha" type="matrix"
+                                                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                            <feOffset dy="4.61998" />
+                                            <feGaussianBlur stdDeviation="5.5" />
+                                            <feComposite in2="hardAlpha" operator="out" />
+                                            <feColorMatrix type="matrix"
+                                                values="0 0 0 0 0.508333 0 0 0 0 0.508333 0 0 0 0 0.508333 0 0 0 0.36 0" />
+                                            <feBlend mode="normal" in2="BackgroundImageFix"
+                                                result="effect1_dropShadow_40_425" />
+                                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_40_425"
+                                                result="shape" />
+                                        </filter>
+                                    </defs>
+                                </svg>
+
+                            </span>
+                            <div class="">
+                                <h2 class="list_head">User-Friendly Signup:</h2>
+                                <p class="list_para">Employees easily indicate their preference for a new laptop.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="d-flex gap-4 ">
+                            <span class="border-left position-relative z-2">
+                                <svg width="48" height="49" viewBox="0 0 48 49" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_d_40_425)">
+                                        <rect x="11" y="7" width="26" height="26" rx="8" fill="white" />
+                                    </g>
+                                    <rect x="19.1252" y="15.125" width="9.34375" height="9.34375" rx="4.0625"
+                                        fill="#377C8A" />
+                                    <defs>
+                                        <filter id="filter0_d_40_425" x="0" y="0.61998" width="48" height="48"
+                                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                            <feColorMatrix in="SourceAlpha" type="matrix"
+                                                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                            <feOffset dy="4.61998" />
+                                            <feGaussianBlur stdDeviation="5.5" />
+                                            <feComposite in2="hardAlpha" operator="out" />
+                                            <feColorMatrix type="matrix"
+                                                values="0 0 0 0 0.508333 0 0 0 0 0.508333 0 0 0 0 0.508333 0 0 0 0.36 0" />
+                                            <feBlend mode="normal" in2="BackgroundImageFix"
+                                                result="effect1_dropShadow_40_425" />
+                                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_40_425"
+                                                result="shape" />
+                                        </filter>
+                                    </defs>
+                                </svg>
+
+                            </span>
+                            <div class="">
+                                <h2 class="list_head">User-Friendly Signup:</h2>
+                                <p class="list_para">Employees easily indicate their preference for a new laptop.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="d-flex gap-4 ">
+                            <span class=" position-relative z-2">
+                                <svg width="48" height="49" viewBox="0 0 48 49" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g filter="url(#filter0_d_40_425)">
+                                        <rect x="11" y="7" width="26" height="26" rx="8" fill="white" />
+                                    </g>
+                                    <rect x="19.1252" y="15.125" width="9.34375" height="9.34375" rx="4.0625"
+                                        fill="#377C8A" />
+                                    <defs>
+                                        <filter id="filter0_d_40_425" x="0" y="0.61998" width="48" height="48"
+                                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                            <feColorMatrix in="SourceAlpha" type="matrix"
+                                                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                            <feOffset dy="4.61998" />
+                                            <feGaussianBlur stdDeviation="5.5" />
+                                            <feComposite in2="hardAlpha" operator="out" />
+                                            <feColorMatrix type="matrix"
+                                                values="0 0 0 0 0.508333 0 0 0 0 0.508333 0 0 0 0 0.508333 0 0 0 0.36 0" />
+                                            <feBlend mode="normal" in2="BackgroundImageFix"
+                                                result="effect1_dropShadow_40_425" />
+                                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_40_425"
+                                                result="shape" />
+                                        </filter>
+                                    </defs>
+                                </svg>
+
+                            </span>
+                            <div class="">
+                                <h2 class="list_head">User-Friendly Signup:</h2>
+                                <p class="list_para">Employees easily indicate their preference for a new laptop.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JQUERY-MIN-JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- SLICK-MIN-JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script>
+        $('.responsive').slick({
+            dots: true,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 3,
+            slidesToScroll: 4,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+    </script>
+</body>
+
+</html>
